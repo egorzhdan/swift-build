@@ -80,6 +80,9 @@ jobs:
         displayName: Add Ninja to PATH
 
       - script: |
+          if [[ -e /Applications/Xcode_12_beta.app/Contents/Developer ]] ; then
+            sudo xcode-select -s /Applications/Xcode_12_beta.app/Contents/Developer
+          fi
           if [[ -e /Applications/Xcode_12.app/Contents/Developer ]] ; then
             sudo xcode-select -s /Applications/Xcode_12.app/Contents/Developer
           fi
