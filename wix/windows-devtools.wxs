@@ -235,6 +235,7 @@
         <File Id="PD4_PACKAGE_DESCRIPTION_LIB" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4\PackageDescription.lib" Checksum="yes" />
         <File Id="PD4_PACKAGE_DESCRIPTION_SWIFTDOC" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4\PackageDescription.swiftdoc" Checksum="yes" />
         <File Id="PD4_PACKAGE_DESCRIPTION_SWIFTMODULE" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4\PackageDescription.swiftmodule" Checksum="yes" />
+        <File Id="PD4_PACKAGE_DESCRIPTION_SWIFTSOURCEINFO" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4\PackageDescription.swiftsourceinfo" Checksum="yes" />
       </Component>
 
       <?ifdef INCLUDE_DEBUG_INFO ?>
@@ -251,6 +252,7 @@
         <File Id="PD4_2_PACKAGE_DESCRIPTION_LIB" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4_2\PackageDescription.lib" Checksum="yes" />
         <File Id="PD4_2_PACKAGE_DESCRIPTION_SWIFTDOC" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4_2\PackageDescription.swiftdoc" Checksum="yes" />
         <File Id="PD4_2_PACKAGE_DESCRIPTION_SWIFTMODULE" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4_2\PackageDescription.swiftmodule" Checksum="yes" />
+        <File Id="PD4_2_PACKAGE_DESCRIPTION_SWIFTSOURCEINFO" Source="$(var.DEVTOOLS_ROOT)\usr\lib\swift\pm\4_2\PackageDescription.swiftsourceinfo" Checksum="yes" />
       </Component>
 
       <?ifdef INCLUDE_DEBUG_INFO ?>
